@@ -1,0 +1,11 @@
+# Logs
+logs
+*.Logs
+# Compiled directory and file
+build/
+bundle.js
+package-lock.json
+# Dependency directories
+node_modules/
+# Other
+.DS_Store

@@ -11,12 +11,26 @@
   "author": "Michael Ortiz",
   "license": "MIT",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "*",
     "concurrently": "^3.6.1",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "dotenv": "^6.0.0",
     "express": "^4.16.3",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
     "mongoose": "*",
-    "body-parser": "*"
+    "mongoose-unique-validator": "^2.0.1",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
     "nodemon": "^1.18.3"
   }
 }
